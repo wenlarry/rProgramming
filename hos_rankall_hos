@@ -1,0 +1,69 @@
+
+## RANKALL
+
+# Data - outcome_of_care_measures.csv
+
+# Use Hos 3 in hos_best template
+
+# eg no 1
+# GOTO HOS 3
+# Goto State NJ
+# Goto outcome col 3- pneumonia
+# Result hos no 2675 
+
+#eg no2
+# GOTO HOS 3
+# Goto State NV
+# Goto outcome col2 - heart failure
+# Find ranking 10
+# Result is hos 2601
+# At HF rate of 11.2is a tie
+# Hos 2601 ranked 10 based on alpha order 
+
+#eg 3
+#GOTO HOS3
+#Goto State HI
+#Goto outcome col 1 - "heart attack"
+#At HA rate of 15.1hos 1045ranked 4
+
+
+# Rank Hospital - outcome    
+
+# Data - outcome_of_care_measures.csv
+
+# Use hos 3 in hos_best template
+
+# eg1
+# GOTO HOS 3
+# Goto state NC
+# Goto outcome col 1 - "heart attack"
+# At HA rate of 19.0hos 2931 ranked worst
+
+
+#eg 2
+# GOTO HOS 3
+# Goto state WA
+# Goto outcome col1 - "heart attack"
+# At HA rate of 13.9 hos 4386 ranked 7
+
+#eg 3
+#GOTO HOS 3
+# Goto state TX
+# Goto outcome col3 - "pneumonia"
+# At Pneumonia rate of 9.1 hos 4020 ranked 10
+
+# eg 4
+# GOTO HOS 3
+# Goto state NY
+# Goto outcome- "heart attack"
+# At HA rate of 12.6 hos 2845 ranked 7 
+
+# END
+
+
+
+
+# NOTE: Outcome Col - rate at double digit i.e. 10...+
+             rate at single digit i.e  ?...9.9
+             
+     Click outcome then state             
